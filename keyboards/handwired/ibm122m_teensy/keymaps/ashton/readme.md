@@ -1,0 +1,9 @@
+# Ashton's keymap for ibm122m
+10 left function keys:
+KC_ESCAPE	KC_APPLICATION
+KC_MEDIA_PREV_TRACK	KC_MEDIA_NEXT_TRACK
+KC_MEDIA_STOP	KC_MEDIA_PLAYPAUSE
+KC_AUDIO_VOL_DOWN	KC_AUDIO_VOL_UP
+KC_MUTE	KC_MEDIA_SELECT
+
+Remaining keys follow standard 102 key layout.

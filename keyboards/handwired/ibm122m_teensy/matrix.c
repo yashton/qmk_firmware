@@ -159,6 +159,9 @@ uint8_t matrix_scan(void)
         for (int r = 0; r < MATRIX_ROWS; r++) {
             matrix[r] = matrix_debouncing[r];
         }
+
+        GHOST_HANDLING();
+
         debouncing = false;
     }
 

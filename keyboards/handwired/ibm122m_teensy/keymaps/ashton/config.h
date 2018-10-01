@@ -15,3 +15,12 @@
  */
 
 #pragma once
+
+// Special case for C-M-n ghosting. Mask off the ghosted h key.
+#define GHOST_HANDLING() {                      \
+    if ((matrix_debouncing[7] & (1 << 8)) \
+        && (matrix_debouncing[0] & 1) \
+        && (matrix_debouncing[7] & 1)) { \
+        matrix[0] &= ~(1 << 8);          \
+    } \
+}

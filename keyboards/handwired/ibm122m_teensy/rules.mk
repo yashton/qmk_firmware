@@ -61,5 +61,5 @@ DFU_ARGS = -d 1c11:b007
 # Build Options
 #
 # CONSOLE_ENABLE = yes
-DEBUG_ENABLE = yes
+# DEBUG_ENABLE = yes
 CUSTOM_MATRIX = yes
